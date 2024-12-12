@@ -1,0 +1,11 @@
+E:\programming\Rust\projects\1stRustProject-master\chat\target\debug\deps\libgetrandom-3fe309b500263d9f.rmeta: C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src/lib.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\util.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error_impls.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\windows.rs
+
+E:\programming\Rust\projects\1stRustProject-master\chat\target\debug\deps\libgetrandom-3fe309b500263d9f.rlib: C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src/lib.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\util.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error_impls.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\windows.rs
+
+E:\programming\Rust\projects\1stRustProject-master\chat\target\debug\deps\getrandom-3fe309b500263d9f.d: C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src/lib.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\util.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error_impls.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\windows.rs
+
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src/lib.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\util.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\error_impls.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\getrandom-0.2.15\src\windows.rs:

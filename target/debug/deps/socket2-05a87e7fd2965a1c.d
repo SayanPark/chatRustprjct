@@ -1,0 +1,11 @@
+E:\programming\Rust\projects\1stRustProject-master\chat\target\debug\deps\libsocket2-05a87e7fd2965a1c.rmeta: C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src/lib.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockaddr.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\socket.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockref.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sys\windows.rs
+
+E:\programming\Rust\projects\1stRustProject-master\chat\target\debug\deps\libsocket2-05a87e7fd2965a1c.rlib: C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src/lib.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockaddr.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\socket.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockref.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sys\windows.rs
+
+E:\programming\Rust\projects\1stRustProject-master\chat\target\debug\deps\socket2-05a87e7fd2965a1c.d: C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src/lib.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockaddr.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\socket.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockref.rs C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sys\windows.rs
+
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src/lib.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockaddr.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\socket.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sockref.rs:
+C:\Users\lenovo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.5.8\src\sys\windows.rs:
