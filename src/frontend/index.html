@@ -13,59 +13,55 @@
 <body>
     <h1>Chat Application</h1>
     <div>
-        <input type="text" id="newChatRoom" placeholder="New Chat Room" />
-        <button id="createRoom">Create Room</button>
+        <input type="text" id="chatRoomInput" placeholder="Chat Room Name" />
+        <button id="joinRoom">Join/Create Room</button>
     </div>
     <div>
-        <select id="chatRoomSelect"></select>
+        <input type="text" id="messageInput" placeholder="Message" />
+        <button id="sendMessage">Send Message</button>
     </div>
     <div id="messages"></div>
-    <input type="text" id="chatName" placeholder="Chat Name" />
-    <input type="text" id="message" placeholder="Message" />
-    <button id="send">Send</button>
 
     <script>
         const messagesDiv = document.getElementById('messages');
-        const chatNameInput = document.getElementById('chatName');
-        const messageInput = document.getElementById('message');
-        const sendButton = document.getElementById('send');
-        const chatRoomSelect = document.getElementById('chatRoomSelect');
-        const createRoomButton = document.getElementById('createRoom');
-        const newChatRoomInput = document.getElementById('newChatRoom');
+        const chatRoomInput = document.getElementById('chatRoomInput');
+        const messageInput = document.getElementById('messageInput');
+        const joinRoomButton = document.getElementById('joinRoom');
+        const sendMessageButton = document.getElementById('sendMessage');
 
         const socket = new WebSocket('ws://127.0.0.1:5000');
 
         socket.onmessage = function(event) {
             const data = JSON.parse(event.data);
             const messageElement = document.createElement('div');
-            messageElement.textContent = `Chat Room: ${data.chat_room}, Chat Name: ${data.chat_name}, Message: "${data.message}"`;
+            messageElement.textContent = `Chat Name: ${data.chat_name}, Message: "${data.message}"`;
             messagesDiv.appendChild(messageElement);
             messagesDiv.scrollTop = messagesDiv.scrollHeight; // Scroll to the bottom
         };
 
-        sendButton.onclick = function() {
-            const chatName = chatNameInput.value;
-            const message = messageInput.value;
-            const chatRoom = chatRoomSelect.value;
-            if (chatName && message && chatRoom) {
+        joinRoomButton.onclick = function() {
+            const chatRoom = chatRoomInput.value;
+            if (chatRoom) {
                 const packet = {
-                    chat_room: chatRoom,
-                    chat_name: chatName,
+                    command: "join",
+                    chat_name: chatRoom
+                };
+                socket.send(JSON.stringify(packet));
+                chatRoomInput.value = ''; // Clear the input
+            }
+        };
+
+        sendMessageButton.onclick = function() {
+            const message = messageInput.value;
+            const chatRoom = chatRoomInput.value; // Use the same input for chat room
+            if (message && chatRoom) {
+                const packet = {
+                    command: "post",
+                    chat_name: chatRoom,
                     message: message
                 };
                 socket.send(JSON.stringify(packet));
                 messageInput.value = ''; // Clear the input
-            }
-        };
-
-        createRoomButton.onclick = function() {
-            const newChatRoom = newChatRoomInput.value;
-            if (newChatRoom) {
-                const option = document.createElement('option');
-                option.value = newChatRoom;
-                option.textContent = newChatRoom;
-                chatRoomSelect.appendChild(option);
-                newChatRoomInput.value = ''; // Clear the input
             }
         };
     </script>
