@@ -1,1 +1,1 @@
-C:\Users\lenovo\Downloads\1stRustProject-master\chat\target\debug\libchat.rlib: C:\Users\lenovo\Downloads\1stRustProject-master\chat\src\lib.rs C:\Users\lenovo\Downloads\1stRustProject-master\chat\src\utils.rs
+E:\programming\Rust\projects\1stRustProject-master\chat\target\debug\libchat.rlib: E:\programming\Rust\projects\1stRustProject-master\chat\src\lib.rs E:\programming\Rust\projects\1stRustProject-master\chat\src\utils.rs
