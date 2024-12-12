@@ -4,7 +4,7 @@ pub mod utils;
 
 #[derive(Debug, Deserialize, Serialize, PartialEq)]
 pub enum Client {
-    Join{
+    Join {
         chat_name: Arc<String>,
     },
     Post {
@@ -12,8 +12,9 @@ pub enum Client {
         message: Arc<String>,
     }
 }
+
 #[derive(Debug, Deserialize, Serialize, PartialEq)]
-pub enum  Server {
+pub enum Server {
     Message {
         chat_name: Arc<String>,
         message: Arc<String>
